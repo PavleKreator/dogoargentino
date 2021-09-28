@@ -1,9 +1,9 @@
 main-menus:
   - title: Početna
     url: /
-  - title: ishrana
+  - title: Ishrana
     url: /ishrana/
-  - title: prodaja
+  - title: Prodaja
     url: /prodaja/
   - title: Karakteristike
     url: /karakteristike/
