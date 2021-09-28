@@ -1,0 +1,23 @@
+title: Check out My work
+subtitle: Take a peek inside my Wonder world
+categories:
+  - title: Pictures
+    description: Non/Commercial photography
+    pathname: /pictures-portfolio/
+    image: /assets/uploads/content-plate-pictures.png
+  - pathname: /creatives-portfolio/
+    title: Creatives
+    description: Various Projects
+    image: /assets/uploads/content-plate-graphics.png
+  - title: Text
+    description: PR & Marketing Content
+    pathname: /text-content-portfolio/
+    image: /assets/uploads/content-plate-text.png
+  - title: Videos & GIFs
+    description: Ideas in Motion
+    pathname: /video-portfolio/
+    image: /assets/uploads/video-icon-play.png
+  - title: Web design & ecommerce
+    description: Bring business online
+    image: /assets/uploads/iphone.png
+    pathname: /ecommerce-portfolio/

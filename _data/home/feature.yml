@@ -1,0 +1,16 @@
+group:
+  - title: " Feature One"
+    description: >
+      
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+    image: /assets/uploads/feature-4.jpg
+  - title: " Feature Two"
+    description: >
+      
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+    image: /assets/uploads/feature-5.jpg
+  - title: " Feature Three"
+    description: >
+      
+      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+    image: /assets/uploads/feature-6.jpg

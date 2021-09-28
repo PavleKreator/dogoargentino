@@ -1,0 +1,105 @@
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-3e1dd54 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="3e1dd54" data-element_type="section"
+    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-76bdd6a"
+            data-id="76bdd6a" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-7193a47 elementor-section-content-middle elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="7193a47" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-dd4441b"
+                            data-id="dd4441b" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-397fa8b elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                    data-id="397fa8b" data-element_type="widget" data-widget_type="image-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-image-box-wrapper">
+                                            <div class="elementor-image-box-content">
+                                                <h2 class="elementor-image-box-title">{{ site.data.home.najbolji.title }}</h2>
+                                                <p class="elementor-image-box-description">{{ site.data.home.najbolji.description }}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-8ed167e"
+                            data-id="8ed167e" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-f463fbb elementor-widget elementor-widget-image"
+                                    data-id="f463fbb" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img src="{{ site.data.home.najbolji.image | relative_url }}"
+                                            title="frenchie sedi 2 png" alt="francuski buldog ishrana i nega" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+                <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-7c30800 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="7c30800" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        
+                        {%- for item in site.data.home.najbolji.feature -%}
+                        <div class="elementor-column elementor-col-25 elementor-inner-column elementor-element elementor-element-8c5b080"
+                            data-id="8c5b080" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                
+                                <div class="elementor-element elementor-element-5ec5435 elementor-widget elementor-widget-image"
+                                    data-id="5ec5435" data-element_type="widget" data-widget_type="image.default">
+                                    <div class="elementor-widget-container">
+                                        <img width="140" height="140"
+                                            src="{{ item.image | relative_url }}"
+                                            class="attachment-large size-large" alt="" loading="lazy" />
+                                    </div>
+                                </div>
+
+                                <div class="elementor-element elementor-element-3e4acdd elementor-position-left elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                    data-id="3e4acdd" data-element_type="widget" data-widget_type="image-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-image-box-wrapper">
+                                            <div class="elementor-image-box-content">
+                                                <h3 class="elementor-image-box-title">
+                                                    {{ item.name }}
+                                                </h3>
+                                                <p class="elementor-image-box-description">
+                                                {{ item.description }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-011588c elementor-mobile-align-center elementor-widget elementor-widget-button"
+                                    data-id="011588c" data-element_type="widget" data-widget_type="button.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-button-wrapper">
+                                            <a href=" {{ item.url }}"
+                                                class="elementor-button-link elementor-button elementor-size-sm"
+                                                role="button">
+                                                <span class="elementor-button-content-wrapper">
+                                                    <span class="elementor-button-icon elementor-align-icon-right">
+                                                        <i aria-hidden="true" class="fas fa-caret-right"></i>
+                                                    </span>
+                                                    <span class="elementor-button-text">Pročitaj
+                                                        više</span>
+                                                </span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {%- endfor -%}
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
+

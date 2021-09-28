@@ -1,0 +1,15 @@
+main-menus:
+  - title: Početna
+    url: /
+  - title: ishrana
+    url: /ishrana/
+  - title: prodaja
+    url: /prodaja/
+  - title: Karakteristike
+    url: /karakteristike/
+  - title: Iskustva
+    url: /iskustva/
+  - title: Blog
+    url: /blog/
+  - title: Prodavnica
+    url: /prodavnica/

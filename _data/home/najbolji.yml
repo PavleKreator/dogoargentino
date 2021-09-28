@@ -1,0 +1,26 @@
+image: /assets/uploads/nis.png
+title: " Najbolji saveti za tvog kućnog prijatelja"
+description: " Ovde ćeš pronaći savete najvećih stručnjaka i veterinara o tome
+  kako treba negovati svog Frenchia, koji režim ishrane odgovara tvom ljubimcu i
+  još puno toga. "
+feature:
+  - name: Čuvanje
+    image: /assets/uploads/sitting-free-img.png
+    description: " Ideš na put? Pogledaj najbolje Pet Sittere i prepusti im svog
+      najboljeg prijatelja."
+    link: "#"
+  - name: Oprema
+    image: /assets/uploads/minding-free-img.png
+    description: "Povodci, hrana, igračke, odeća i još mnogo stvari čeka te u našoj
+      online prodavnici "
+    link: "#"
+  - name: Dresiranje
+    description: " Pogledaj najbolje savete kako dresirati francuskog buldoga i
+      naučiti ga osnovno."
+    image: /assets/uploads/training-free-img.png
+    link: "#"
+  - name: Sređivanje
+    description: " Pogledaj najbolje savete za sređivanje i šišanje frenchia kao i
+      najbolje frizere u gradu."
+    image: /assets/uploads/grooming-free-img.png
+    link: "#"

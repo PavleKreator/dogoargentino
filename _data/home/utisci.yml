@@ -1,0 +1,17 @@
+tagline: " Naši posetioci"
+title: Utisci kupaca
+description: Rem ridi culus pharetra eligendi labore nulla explicabo sem! Modi
+  ipsa, dolores cupiditate elementum molestias dis animi.
+clients:
+  - image: /assets/uploads/client3-free-img-150x150.png
+    description: Rem ridi culus pharetra labore nulla expli cabo sem! Modi ipsa,
+      dolores cupiditate elemen tum.
+    address: " Jane Foster, NY"
+  - description: Rem ridi culus pharetra eligendi labore nulla expli cabo sem! Modi
+      ipsa, dolores cupiditate.
+    address: Mike Ross, WD
+    image: /assets/uploads/client2-free-img-150x150.png
+  - description: Rem pharetra labore eligendi nulla expli cabo sem! Modi ipsa,
+      dolores elemen tum eligendi.
+    address: Veronica Cullen, MH
+    image: /assets/uploads/client2-free-img-150x150.png

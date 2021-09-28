@@ -1,0 +1,86 @@
+<section
+    class="elementor-section elementor-top-section elementor-element elementor-element-77f304e elementor-section-content-bottom elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+    data-id="77f304e" data-element_type="section"
+    data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+    <div class="elementor-container elementor-column-gap-default">
+        <div class="elementor-column elementor-col-100 elementor-top-column elementor-element elementor-element-5669a86"
+            data-id="5669a86" data-element_type="column">
+            <div class="elementor-widget-wrap elementor-element-populated">
+                <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-82bd92d elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="82bd92d" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-a1ea1de"
+                            data-id="a1ea1de" data-element_type="column">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-element elementor-element-1e816dd elementor-widget elementor-widget-heading"
+                                    data-id="1e816dd" data-element_type="widget" data-widget_type="heading.default">
+                                    <div class="elementor-widget-container">
+                                        <h4 class="elementor-heading-title elementor-size-default">
+                                        {{ site.data.home.utisci.tagline }}
+                                        </h4>
+                                    </div>
+                                </div>
+                                <div class="elementor-element elementor-element-7b782ae elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                    data-id="7b782ae" data-element_type="widget" data-widget_type="image-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-image-box-wrapper">
+                                            <div class="elementor-image-box-content">
+                                                <h2 class="elementor-image-box-title">
+                                                {{ site.data.home.utisci.title }}</h2>
+                                                <p class="elementor-image-box-description">
+                                                {{ site.data.home.utisci.description }}
+                                                </p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="elementor-column elementor-col-50 elementor-inner-column elementor-element elementor-element-0e4e965"
+                            data-id="0e4e965" data-element_type="column">
+                            <div class="elementor-widget-wrap">
+                            </div>
+                        </div>
+                    </div>
+                </section>
+
+                <section
+                    class="elementor-section elementor-inner-section elementor-element elementor-element-ee4b9f5 elementor-section-boxed elementor-section-height-default elementor-section-height-default"
+                    data-id="ee4b9f5" data-element_type="section">
+                    <div class="elementor-container elementor-column-gap-default">
+                        
+                        {%- for client in site.data.home.utisci.clients -%}
+                        <div class="elementor-column elementor-col-33 elementor-inner-column elementor-element elementor-element-375dfec"
+                            data-id="375dfec" data-element_type="column"
+                            data-settings="{&quot;background_background&quot;:&quot;classic&quot;}">
+                            <div class="elementor-widget-wrap elementor-element-populated">
+                                <div class="elementor-background-overlay"></div>
+                                <div class="elementor-element elementor-element-6939626 elementor-position-top elementor-vertical-align-top elementor-widget elementor-widget-image-box"
+                                    data-id="6939626" data-element_type="widget" data-widget_type="image-box.default">
+                                    <div class="elementor-widget-container">
+                                        <div class="elementor-image-box-wrapper">
+                                            <figure class="elementor-image-box-img">
+                                                <img width="150" height="150"
+                                                    src="{{ client.image | relative_url }}"
+                                                    class="attachment-thumbnail size-thumbnail" alt="" loading="lazy" />
+                                            </figure>
+                                            <div class="elementor-image-box-content">
+                                                <h4 class="elementor-image-box-title">
+                                                    {{ client.description}}</h4>
+                                                <p class="elementor-image-box-description">
+                                                    {{ client.address}}</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        {%- endfor -%}
+                        
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+</section>
