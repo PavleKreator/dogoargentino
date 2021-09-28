@@ -1,16 +1,13 @@
 group:
-  - title: " Feature One"
-    description: >
-      
-      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+  - title: Atila
+    description: Najveći mužijak iz legla, nazvan po velikom hunskom osvajaču, poput
+      svog imenjaka silan i potpuno siguran u sebe.
     image: /assets/uploads/feature-4.jpg
-  - title: " Feature Two"
-    description: >
-      
-      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+  - title: Ares
+    description: Najlepši mužijak iz legla, nazvan po grčkom bogu rata, poput svog
+      imenjaka veoma srčan.
     image: /assets/uploads/feature-5.jpg
-  - title: " Feature Three"
-    description: >
-      
-      Lorem ipsum dolor sit amet, consec tetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis.
+  - title: Astra
+    description: Najlepša ženka iz legla, nazvana po svojim prelepim očima koje
+      svetlucaju poput hiljadu zvezda.
     image: /assets/uploads/feature-6.jpg
