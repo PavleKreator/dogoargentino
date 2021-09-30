@@ -30,6 +30,10 @@ url: "https://silly-heisenberg-b500da.netlify.app" # the base hostname & protoco
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-paginate
+
+paginate_path: "/blog/page:num/"
+paginate: 12
 
 # Exclude from processing.
 # The following items will not be processed, by default.
