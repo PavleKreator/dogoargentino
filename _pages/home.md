@@ -1,8 +1,8 @@
 ---
 layout: home
 permalink: /
-title: home
-description: home
+title: Dogo Argentino Srbija
+description: Dogo Argentino Srbija
 ---
 {%- include home/hero.html -%}
 
