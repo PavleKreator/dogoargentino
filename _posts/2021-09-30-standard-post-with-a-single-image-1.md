@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Standard post with a single image "
+title: "Standard post with a single image 1"
 summary: Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus
   luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.
 categories:

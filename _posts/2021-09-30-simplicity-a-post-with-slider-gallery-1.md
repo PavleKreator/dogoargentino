@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Simplicity, a post with slider gallery
+title: Simplicity, a post with slider gallery 1
 summary: Curabitur pulvinar euismod ante, ac sagittis ante posuere ac. Vivamus
   luctus commodo dolor porta feugiat. Fusce at velit id ligula pharetra laoreet.
 categories:
