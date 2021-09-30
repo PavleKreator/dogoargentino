@@ -1,11 +1,9 @@
 ---
 layout: home
+permalink: /
 title: home
 description: home
-permalink: /
 ---
-
-
 {%- include home/hero.html -%}
 
 {%- include home/nastala.html -%}
@@ -16,7 +14,4 @@ permalink: /
 
 {%- include home/zapratite.html -%}
 
-{%- include home/utisci.html -%}
-
 {%- include home/obraduj.html -%}
-
